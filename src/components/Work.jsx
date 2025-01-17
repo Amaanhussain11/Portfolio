@@ -1,7 +1,7 @@
 import React from "react";
 import wheather from "../assests/wheather.jpg";
 import tailwind from "../assests/tailwind.png";
-// import '../index.css';
+import '../index.css';
 
 const Work = () => {
   return (
@@ -77,13 +77,6 @@ const Work = () => {
               </div>
             </div>
           </div>
-
-
-
-          
-
-         
-
         </div>
       </div>
     </div>

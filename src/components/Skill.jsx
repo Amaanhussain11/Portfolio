@@ -1,10 +1,12 @@
 import React from "react";
-import html from "../assests/html.png";
-import css from "../assests/css.png";
+
 import js from "../assests/javascript.png";
 import react from "../assests/react.png";   
-import Github from "../assests/github.png";
+
 import tailwind from "../assests/tailwind.png";
+import mongo from "../assests/mongo.png"
+import node from "../assests/node.png"
+import express from "../assests/express.png"
 
 const Skill = () => {
   return (
@@ -23,28 +25,28 @@ const Skill = () => {
       </div>
       <div className="mx-auto w-[85%] grid grid-cols-2 text-center sm:grid-cols-3 gap-4">
         <div className="my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-          <img className="w-20 mx-auto" src={html} alt="HTML logo"></img>
-          <p className="my-4">HTML</p>
-        </div>
-        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-          <img className="w-20 mx-auto" src={css} alt="HTML logo"></img>
-          <p className="my-4">CSS</p>
+          <img className="w-20 mx-auto" src={react} alt="HTML logo"></img>
+          <p className="my-4">React JS</p>
         </div>
         <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <img className="w-20 mx-auto" src={js} alt="HTML logo"></img>
           <p className="my-4">JavaScript</p>
         </div>
         <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-          <img className="w-20 mx-auto" src={react} alt="HTML logo"></img>
-          <p className="my-4">React</p>
-        </div>
-        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-          <img className="w-20 mx-auto" src={Github} alt="HTML logo"></img>
-          <p className="my-4">Github</p>
-        </div>
-        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
           <img className="w-20 mx-auto" src={tailwind} alt="HTML logo"></img>
-          <p className="my-4">Tailwind</p>
+          <p className="my-4">Tailwind CSS</p>
+        </div>
+        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <img className="w-20 mx-auto" src={mongo} alt="HTML logo"></img>
+          <p className="my-4">Mongo DB</p>
+        </div>
+        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <img className="w-40 mx-auto" src={node} alt="HTML logo"></img>
+          <p className="my-4">Node JS</p>
+        </div>
+        <div className=" my-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          <img className="w-40 mx-auto" src={express} alt="HTML logo"></img>
+          <p className="my-4">Express JS</p>
         </div>
       </div>
     </div>
