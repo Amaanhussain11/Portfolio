@@ -36,9 +36,9 @@ const Navbar = () => {
         <li><Link to="skills" smooth={true} duration={500}>
             Skills
           </Link></li>
-        {/* <li><Link to="work" smooth={true} duration={500}>
+        <li><Link to="work" smooth={true} duration={500}>
             Work
-          </Link></li> */}
+          </Link></li>
         <li><Link to="contact" smooth={true} duration={500}>
             Contact
           </Link></li>
@@ -107,7 +107,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600">
             <a
-               href="/"
+               href="https://drive.google.com/file/d/1WBKV9ukBOVlDS1Ji4gOTbwcKzus2qJ9k/view?usp=sharing"
               className="flex justify-between items-center w-full text-gray-300 text-xl"
             >
               Resume
